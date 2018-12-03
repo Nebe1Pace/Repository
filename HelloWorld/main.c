@@ -24,9 +24,11 @@
 int main(void)
 {
     puts("Hello World!");
-
+    
+    printf("Hello!", RIOT_BOARD);
     printf("You are running RIOT on a(n) %s board.\n", RIOT_BOARD);
     printf("This board features a(n) %s MCU.\n", RIOT_MCU);
+    printf("Goodbye!", RIOT_BOARD);
 
     return 0;
 }
