@@ -1,7 +1,7 @@
 # name of your application(имя приложения)
 APPLICATION = hello-world
 
-# If no BOARD is found in the environment, use this default:(название платы)
+# If no BOARD is found in the environment, use this default:(Название платы, для которой происходит сборка проекта)
 BOARD=stm32f0discovery 
 
 # This has to be the absolute path to the RIOT base directory:(абсолютный путь к базовому каталогу RIOT)
