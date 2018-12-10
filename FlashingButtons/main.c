@@ -34,7 +34,7 @@ void *thread_two(void *arg)
     while(1){
         // Переключение состояния пина PC8
     	gpio_toggle(GPIO_PIN(PORT_C,9));
-        // Поток засыпает на 122137 микросекунд, почему бы и нет:)
+        // Поток засыпает на 122137 микросекунд,почему бы и нет:)
 xtimer_periodic_wakeup(&last_wakeup_two, 122137);
     }
     return NULL;
