@@ -9,7 +9,7 @@ RIOTBASE ?= $(CURDIR)/../..
 
 # Comment this out to disable code in RIOT that does safety checking(Прокомментируйте это, чтобы отключить код в RIOT, который выполняет проверку безопасности)
 # which is not needed in a production environment but helps in the(который не требуется в производственной среде, но помогает в)
-# development process:(процессе разработки:)
+# development process:(процессе разработки)
 DEVELHELP ?= 1
 
 # Change this to 0 show compiler invocation lines by default:(Измените это значение на 0, показывая строки вызова компилятора по умолчанию:)
